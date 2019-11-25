@@ -1,0 +1,54 @@
+.btn {
+    margin: 0 10px;
+    color: #fff;
+    background-color: rgb(19, 226, 143);
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid rgb(63, 173, 137);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    outline: none;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #3ac18c;
+}
+.btn:active {
+    box-shadow: 0 0 10px rgb(1, 116, 58);
+}
+.input {
+    width: 300px;
+    height: 20px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5a5a;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+}
+.output-box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5a5a;
+}
+.output-box__message {
+    word-wrap: break-word;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5a5a;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    min-height: 20px;
+}
